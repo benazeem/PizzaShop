@@ -1,7 +1,7 @@
 import React from 'react';
-import Phoneicon from './src/assets/Phone.jsx';
-import Clock from './src/assets/Clock.jsx';
-import InstaIcon from './src/assets/InstaIcon.jsx';
+import Phoneicon from '../assets/Phone.jsx';
+import Clock from '../assets/Clock.jsx';
+import InstaIcon from '../assets/InstaIcon.jsx';
 
 const Footer = () => {
   return (

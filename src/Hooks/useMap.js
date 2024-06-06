@@ -34,6 +34,7 @@ function useMap() {
         }
       } catch (error) {
         setErmsg(error.message);
+        console.log(error.message);
       }
     };
 
