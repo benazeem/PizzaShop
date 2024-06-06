@@ -38,8 +38,8 @@ const Footer = () => {
           <div className='w-full sm:w-1/3 md:w-1/3 lg:w-1/4 xl:w-1/4 flex flex-col items-center pt-2 sm:border-t-0 border-t-2	border-gray-500	border-solid	 '>
             <h4 className='text-black dark:text-white text-xl font-bold'>Our Partners</h4>
             <div className="flex items-center justify-center py-3">
-             <a target="_blank" href='https://www.zomato.com/ncr/eat-greet-pizza-delta-1-greater-noida/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gUGl6emEiLCJkaXNoX2lkcyI6WyI2ODk4NyJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D'> <img src="./src/assets/Zomato.svg" alt="Zomato" className="h-10 w-10 mr-4" /> </a>
-             <a  target="_blank" href='https://www.swiggy.com/restaurants/eat-and-greet-pizza-bishrakh-greater-noida-noida-1-748017?query=Pizza'> <img src="./src/assets/swiggy.svg" alt="Swiggy" className="h-10 w-10" /> </a>
+             <a target="_blank" href='https://www.zomato.com/ncr/eat-greet-pizza-delta-1-greater-noida/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gUGl6emEiLCJkaXNoX2lkcyI6WyI2ODk4NyJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D'> <img src="https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/Zomato.svg" alt="Zomato" className="h-10 w-10 mr-4" /> </a>
+             <a  target="_blank" href='https://www.swiggy.com/restaurants/eat-and-greet-pizza-bishrakh-greater-noida-noida-1-748017?query=Pizza'> <img src="https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/swiggy.svg" alt="Swiggy" className="h-10 w-10" /> </a>
             </div>
             <a target='_blank' href='https://www.zomato.com/ncr/eat-greet-pizza-delta-1-greater-noida/order'><button id='order' className="text-base font-bold py-2 px-4 mb-3 rounded bg-green-500 text-white dark:text-black dark:bg-yellow-500">
               ORDER NOW

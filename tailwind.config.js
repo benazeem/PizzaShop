@@ -12,8 +12,8 @@ export default {
       },
 
       backgroundImage: {
-        'hero-bg-night': "url('./src/assets/HeroNight.jpg')",
-        'hero-bg-day': "url('./src/assets/HeroDay.jpg')",
+        'hero-bg-night': "url('https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/HeroNight.jpg')",
+        'hero-bg-day': "url('https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/HeroDay.jpg')",
       }
     }
   },

@@ -31,7 +31,7 @@ const Googlereview = () => {
     <div className='flex items-center'>   <div className='text-black dark:text-white my-1 text-lg font-medium mx-2'>{rating}</div>
        <Stars rating={rating} /> </div>
        <div className=' items-center hidden md:flex'> 
-       <img src="./src/assets/Map.svg" alt="Map" className="h-10" />
+       <img src="https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/Map.svg" alt="Map" className="h-10" />
        <p className='text-black dark:text-white text-lg font-medium'> Eat and Greet</p>
        </div>
       <div className=' flex items-center text-green-500 dark:text-yellow-500 my-1 text-lg font-medium mx-2' >{review}+ <p className='text-black dark:text-white'>&nbsp;Reviews</p></div>

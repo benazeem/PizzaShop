@@ -11,12 +11,12 @@ function About() {
         <div className="flex justify-evenly items-center">
         <img
             className=" hidden lg:block h-52 flex-none opacity-50 "
-            src="./src/assets/Pizzanobg.png"
+            src="https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/Pizzanobg.png"
           ></img>
         <div className="flex justify-evenly items-center mx-5">
           <img
             className=" hidden sm:block h-52 flex-none rounded-lg mx-5"
-            src="./src/assets/About-height.jpg"
+            src="https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/About-height.jpg"
           ></img>
           <p className=" text-black dark:text-white text-sm ">
             At Eat & Greet Pizza, we believe that great food brings people
@@ -29,11 +29,11 @@ function About() {
           <div className="hidden sm:flex sm:flex-col w-72 lg:w-52 mx-5">
             <img
               className="h-20 w-full flex-none rounded-md"
-              src="./src/assets/pizzza.jpg"
+              src="https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/pizzza.jpg"
             ></img>
             <img
               className="mt-2 h-28  w-full flex-none rounded-md"
-              src="./src/assets/pizzzaa.jpg"
+              src="https://raw.githubusercontent.com/benazeem/PizzaShop/master/src/assets/pizzzaa.jpg"
             ></img>
           </div>
         </div>

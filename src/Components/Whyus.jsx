@@ -7,7 +7,7 @@ function Whyus() {
         <h2 className='text-2xl font-medium text-center text-green-500 dark:text-yellow-400 py-2'>Why Choose Us</h2>
 
         <div className='flex items-center justify-between my-4 '>
-        <div className='flex flex-col justify-center items-center'>  <div className='flex flex-col justify-center items-center' ><img className='h-12 w-12' src='./src/assets/menu.svg'></img>
+        <div className='flex flex-col justify-center items-center'>  <div className='flex flex-col justify-center items-center' ><img className='h-12 w-12' src='https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/menu.svg'></img>
           <h3 className='text-md md:text-lg font-medium text-black dark:text-white'>Easy to Order</h3>
           </div>
           <div className='flex flex-col pt-3 justify-center items-center'>
@@ -17,7 +17,7 @@ function Whyus() {
 
           <div className='flex flex-col justify-center items-center'>
           <div className='flex flex-col justify-center items-center' >
-            <img className='h-12 w-12' src='./src/assets/maps.svg'></img>
+            <img className='h-12 w-12' src='https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/maps.svg'></img>
           <h3 className='text-md md:text-lg font-medium text-black dark:text-white' >Live Order</h3>
           </div>
           <div className='flex flex-col pt-3 justify-center items-center'>
@@ -27,7 +27,7 @@ function Whyus() {
 
           <div className='flex flex-col justify-center items-center'>
           <div className='flex flex-col justify-center items-center'>
-            <img className='h-12 w-12' src='./src/assets/organic.svg'></img>
+           <img className='h-12 w-12' src='https://raw.githubusercontent.com/benazeem/PizzaShop/58c07c15bb5a4091bd068b341ec82b807de6af1a/src/assets/organic.svg'></img>
           <h3 className='text-md md:text-lg font-medium text-black dark:text-white' >100% Organic</h3>
           </div>
           <div className='flex pt-3 flex-col justify-center items-center'>
