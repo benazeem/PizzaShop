@@ -23,8 +23,8 @@ const Footer = () => {
           </div>
           <div className='w-full sm:w-1/3 md:w-1/3 lg:w-1/4 xl:w-1/4 flex flex-col items-center py-4 space-y-2'>
             <div className="flex items-center pt-2">
-              <Phoneicon css={`fill-green-500 dark:fill-yellow-500 mr-1`} />
-              <span className="text-lg text-black dark:text-white">+918929722006</span>
+             <Phoneicon css={`fill-green-500 dark:fill-yellow-500 mr-1`} />
+             <a href='tel:+918929722006'> <span className="text-lg text-black hover:underline dark:text-white">+918929722006</span> </a>
             </div>
             <div className="flex items-center">
               <Clock css={`fill-green-500 dark:fill-yellow-500 mr-1 `} />
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center">
               <InstaIcon css={`fill-green-500 dark:fill-yellow-500 mr-1 `} />
-              <span className="text-lg text-black dark:text-white">@eat_and_greet_</span>
+              <a href='https://www.instagram.com/eat_and_greet_/'><span className="text-lg hover:underline text-black dark:text-white">@eat_and_greet_</span></a>
             </div>
           </div>
           <div className='w-full sm:w-1/3 md:w-1/3 lg:w-1/4 xl:w-1/4 flex flex-col items-center pt-2 sm:border-t-0 border-t-2	border-gray-500	border-solid	 '>
