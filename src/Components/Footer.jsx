@@ -1,7 +1,7 @@
 import React from 'react';
-import Phoneicon from '/home/mak/React/LearningYT/Prodigy InfoTech/task1/src/assets/Phone.jsx';
-import Clock from '/home/mak/React/LearningYT/Prodigy InfoTech/task1/src/assets/Clock.jsx';
-import InstaIcon from '/home/mak/React/LearningYT/Prodigy InfoTech/task1/src/assets/InstaIcon.jsx';
+import Phoneicon from './src/assets/Phone.jsx';
+import Clock from './src/assets/Clock.jsx';
+import InstaIcon from './src/assets/InstaIcon.jsx';
 
 const Footer = () => {
   return (
