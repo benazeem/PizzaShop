@@ -1,0 +1,39 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-slider {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+  .slick-slide div {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .slick-prev:before, .slick-next:before {
+    color: #2ECC71; /* Change arrow color */
+    font-size: 28px; /* Change arrow size */
+  }
+
+  .slick-prev {
+    left: 20px; /* Adjust left position */
+  }
+
+  .slick-next {
+    right: 20px; /* Adjust right position */
+  }
+
+  .dark .slick-prev:before, 
+  .dark .slick-next:before {
+    color: #FCE048; /* Change arrow color in dark mode */
+  }
