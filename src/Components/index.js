@@ -7,6 +7,5 @@ import Googlereview from './Googlereview/Googlereview.jsx'
 import Footer from './Footer.jsx'
 import ThemeBtn from './ThemeBtn.jsx'
 import Header from './Header.jsx'
-import ScrollLink from './ScrollLink.jsx'
 
 export {Hero,Menu,About,Whyus,Testimonial,Googlereview,Footer, ThemeBtn, Header} 

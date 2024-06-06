@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Icon from "/home/mak/React/LearningYT/Prodigy InfoTech/task1/src/assets/Icon.jsx";
+import Icon from "../assets/Icon.jsx";
 import { Link, NavLink } from "react-router-dom";
 import ScrollLink from "./ScrollLink.jsx";
 
