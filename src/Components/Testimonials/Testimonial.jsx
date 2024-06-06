@@ -8,6 +8,7 @@ import useMap from '../../Hooks/useMap.js'
 
 function Testimonial() {
 const data = useMap()
+const loader = 'https://i.gifer.com/5Q0v.gif';
 
     var settings = {
         dots:  false,
@@ -54,7 +55,7 @@ const data = useMap()
           ))}
         </Slider>
       ) : (
-       <div className='flex justify-center items-center p-4'> <img className='h-24 w-24 ' src='./src/assets/Loader.gif' /> </div>
+       <div className='flex justify-center items-center p-4'> <img className='h-24 w-36 poiner-events-none ' src={loader} /> </div>
       )}
       </div>
     </>

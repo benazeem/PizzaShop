@@ -25,6 +25,13 @@ function App() {
     document.querySelector("html").classList.add(themeMode);
   }, [themeMode]);
 
+  useEffect(() => {
+    document.querySelectorAll("img").forEach((img) => {
+      img.setAttribute("loading", "lazy");
+      img.classList.add('unselectable');
+    })
+  }, []);
+
   return (
     <ThemeProvider value={{ themeMode, lightMode, darkMode }}>
       <Header />

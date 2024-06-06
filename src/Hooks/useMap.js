@@ -9,7 +9,7 @@ function useMap() {
   const options = {
     method: 'GET',
     headers: {
-      // 'X-RapidAPI-Key': '7a78dd5859msh61137d84fe00721p15693ejsn8bca805a270c',
+      'X-RapidAPI-Key': '7a78dd5859msh61137d84fe00721p15693ejsn8bca805a270c',
       'X-RapidAPI-Host': 'maps-data.p.rapidapi.com'
     }
   };

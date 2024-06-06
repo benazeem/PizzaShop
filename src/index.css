@@ -37,3 +37,11 @@
   .dark .slick-next:before {
     color: #FCE048; /* Change arrow color in dark mode */
   }
+
+  .unselectable {
+    pointer-events: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */       
+  } 
